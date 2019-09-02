@@ -1,0 +1,6 @@
+import math
+d = int(input("Дан диаметр"))
+L = math.pi * d
+print("Длина окружности равна:", L)
+
+
