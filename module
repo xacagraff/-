@@ -1,0 +1,33 @@
+import module
+
+a = int(input("Введите ненулевое число"))
+if a == 0:
+  print("Нужно вести ненулевое число")
+  
+b = int(input("Введите второе ненулевое число"))
+if b == 0:
+  print("Нужно вести ненулевое число")
+
+
+print("Отлично")
+print("Теперь давайте найдем сумму, разность, произведение, частное их модулей")
+
+sum = math.mod(a) + math.mod(b)
+print("Сумма равна:", sum)
+
+if a > b:
+  raz = math.mod(a) - math.mod(b)
+  print("Разность равна:", raz)
+  
+  
+if b > a:
+  raz = math.mod(b) - math.mod(a)
+  print("Разность равна:", raz)
+
+
+
+proz = math.mod(a) * math.mod(b)
+print("Произведение равно:", proz)
+
+chast = math.mod(a) / math.mod(b)
+print("Частное равно:", chast)
