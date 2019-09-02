@@ -1,0 +1,23 @@
+'''
+
+Даны три точки A, B, C на числовой оси. Найти длины отрезков AB, BC и их сумму
+
+'''
+
+import math
+
+
+A = int(input("Введите первое значение: "))
+B = int(input("Введите второе значение: "))
+C = int(input("Введите третье значение: "))
+
+AC = math.fabs(C - A)
+BC = math.fabs(B - A)
+S = AC + BC
+
+print("AC", AC)
+print("BC", BC)
+print("Summa", S)
+
+
+print("Press enter to exit")
