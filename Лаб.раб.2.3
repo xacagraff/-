@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main()
+
+{
+    int A, B, C, AC, BC;
+    cin >> A >> B >> C;
+    if (A >= C || B <= C)
+    {
+    cout << "Error";
+    return 0
+    }
+    AC = C - A;
+    BC = B - C;
+    cout << AC * BC;
+    
+    return 0;
+}
