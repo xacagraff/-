@@ -1,0 +1,22 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+  setlocale(0,"");
+  float a, b, c;
+  cout<<"a = ";
+  cin>>a;
+  cout<<"b = ";
+  cin>>b;
+  c = b;
+  b = a;
+  a = c;
+ 
+  
+  cout<<"a - "<<a<<" b - "<<b;
+  
+  return 0;
+  
+}
