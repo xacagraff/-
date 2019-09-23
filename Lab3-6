@@ -1,0 +1,18 @@
+
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+int main()
+{
+  float A, a;
+  cout << "Введите число A = ";
+  cin >> A;
+  a = pow(A, 6)*A*A;
+  cout << a;
+  
+  
+  return 0;
+  
+
+}
