@@ -1,0 +1,14 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+  float A, a, b;
+  cout << "Ввежите число A = ";
+  cin >> A;
+  a = pow(A, 5);
+  b = pow(A, 5);
+  cout << a*b*A*A*A*A*A;
+  return 0;
+  
+}
