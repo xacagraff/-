@@ -1,0 +1,15 @@
+/*Решаем через пропорции X/A = 1/Y */
+ #include <iostream>
+ 
+ using namespace std;
+ 
+ int main()
+ {
+    float a, x, y;
+    cout << "Введите a: ";
+    cin >> a;
+    cout << "Введите x: ";
+    cin >> x;
+    cout << "1 кг стоит " << a / x << " рублей";
+     return 0;
+ }
