@@ -1,0 +1,23 @@
+ #include <iostream>
+ 
+ using namespace std;
+ 
+ int main()
+ {
+    float v1, v2, s, sum, t;
+    cout << "Введите скорость v1: ";
+    cin >> v1;
+    cout << "Введите скорость v2: ";
+    
+    cin >> v2;
+
+    cout << "Введите расстояние: ";
+    
+    cin >> s;
+    cout << "Введите время: ";
+    cin >> t;
+    sum = s + (v1 + v2) * t;
+    cout << "Расстояние = " << sum;
+    
+     return 0;
+ }
