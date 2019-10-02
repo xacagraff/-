@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float alpha, rad;
+    cout << "Введите градусную меру угла ";
+    cin >> alpha;
+    rad = alpha * 3.14 / 180;
+    cout << "Ответ: " << rad;
+    
+
+    return 0;
+}
