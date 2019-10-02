@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float x,y,a1,b1,c1,a2,b2,c2;
+    std::cout <<  "Введите коэффициенты: " << std::endl;
+    std::cin >> a1 >> b1 >> c1 >> a2 >> b2 >> c2;
+    x = (c2-(b2*c1))/((b1*a2)-a1);
+    y =(c1-(a1*x))/b1;
+    cout << "Решение системы уравнение "<<endl;
+    cout << "x = " << x<< endl;
+    cout << "y = " << y;
+    
+
+    return 0;
+}
