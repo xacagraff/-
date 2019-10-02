@@ -1,0 +1,15 @@
+ #include <iostream>
+ 
+ using namespace std;
+ 
+ int main()
+ {
+    float a, x, b;
+    cout << "Введиет a: ";
+    cin >> a;
+    cout << "Введите b: ";
+    cin >> b;
+    x = -(b/a);
+    cout << "х = " << x;
+     return 0;
+ }
