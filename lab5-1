@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+ 
+int main()
+{
+    float a, k;
+    cout << "Введите число: ";
+    cin >> a;
+    k = a / 1024;
+    cout << "Size = " << k << " kB";
+    return 0;
+}
