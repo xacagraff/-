@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a, b;
+    b = 0;
+    cout << "Введите первое число: ";
+    cin >> a;
+    a = (b + a-1) % 7;
+    cout << a;
+
+    return 0;
+}
