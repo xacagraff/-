@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   int a, b, c, d, e, f;
+   cout << "Введите двузначное число: ";
+   cin >> e;
+   a = e % 10;
+   b = e - a;
+   c = b / 10;
+   d = a * 10;
+   f = c + d;
+   
+   cout << f;
+   
+
+    return 0;
+}
