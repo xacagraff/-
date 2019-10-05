@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int x, a, b, c;
+    cout << "Введите число: ";
+    cin >> x;
+    a = x / 100;
+    b = x % 100;
+    c = b*10 + a;
+    cout << c;
+    
+
+    return 0;
+}
