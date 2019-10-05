@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a, b;
+    int k = 0;
+    cout << "Введите через пробел a: ";
+    cin >> a;
+     cout << "Введите через пробел b: ";
+    cin >> b;
+    k = 0;
+    while (a > b)
+        a = a - b;
+        k = k + 1;
+        
+    cout << k;
+
+    return 0;
+}
